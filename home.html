@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="style.css">
+    <title>NodePass</title>
+    <div class="form">
+        <div class="form-site">
+            <label for="site name">Site name:</label>
+            <input type="text" id="siteName" name="siteName">
+        </div>
+        <div class="form-user">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="siteName">
+        </div>
+        <div class="form-pass">
+            <label for="pass">Password: </label>
+            <input type="password" id="pass" name="password">
+        </div>
+        <div class="form-submit">
+            <input type="submit" value="store">
+        </div>
+    </div>
+    </body>
+
+</html>

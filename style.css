@@ -1,0 +1,14 @@
+.form{
+    position: absolute;
+    left: 350px;
+    top: 50px;
+}
+
+label {
+    display: block;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
